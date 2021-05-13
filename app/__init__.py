@@ -1,7 +1,7 @@
 from flask import Flask
 from config import Configuration
-from routes import myMainRouterFileName
+from routes import myMainRouter
 
 app = Flask(__name__)
 app.config.from_object(Configuration)
-app.register_blueprint(myMainRouterFileName.bp)
+app.register_blueprint(myMainRouter.bp)

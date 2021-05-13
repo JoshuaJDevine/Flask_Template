@@ -1,3 +1,3 @@
 FLASK_ENV=development
-SECRET_KEY=qp02348jrqj43rpqj34pqjr
-DATABASE_URL=postgresql://package_test:password@localhost/package_db
+SECRET_KEY=<MySecret>
+DATABASE_URL=postgresql://MyDbUser:myDbUserPassword@localhost/MyDb
